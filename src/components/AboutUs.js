@@ -4,8 +4,8 @@ import { Container } from 'react-bootstrap';
 
 const AboutUs = () => {
   return (
-    <section id="about-us">
-      <Container>
+    <section id="about-us" className='opacity30'>
+      <Container className='contenedor-imagenes'>
       <div className=" ">
         <h2>Quiénes Somos</h2> {/* Agrega el h2 para el título de esta sección */}
         <p>
