@@ -6,7 +6,6 @@ const PrizePlan = () => {
     <section id="score-system" className='opacity30'>
         <Container className='contenedor-imagenes'>
         <div className=" ">
-            <h2>Sistema de puntuación</h2>
             <picture >
                 {/* Definir la fuente de la imagen para pantallas de escritorio */}
                 <source media="(min-width: 768px)" srcSet={"/images/prize-plan.png"}

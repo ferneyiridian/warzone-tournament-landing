@@ -33,7 +33,7 @@ const Banner = () => {
                     {/* Fallback para navegadores que no soporten la etiqueta 'picture' */}
                     <img src="/images/banner-image.png" alt="Torneo warzone" className="logo-image" />
                 </picture>
-                <a href="https://discord.com/torneo19Ago" target="_blank" rel="noopener noreferrer" className={` ${isMobile ? 'inscribete-image-mobile' : 'inscribete-image-desktop'}`}>
+                <a href="https://api.whatsapp.com/send/?phone=%2B573168214307&text=Hola, Me gustaria inscribirme en el torneo&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className={` ${isMobile ? 'inscribete-image-mobile' : 'inscribete-image-desktop'}`}>
                     <img  src="/images/boton-inscribete.png" alt="Inscribete"  />
                 </a>
                      

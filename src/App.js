@@ -27,13 +27,12 @@ const App = () => {
         </Container>
       </Navbar>
       <Banner />
-      <PrizePlan />
       <TournamentRules />
+      <PrizePlan />
+      
       <AboutUs />
       <Footer />
-      <div className="floating-button">
-        <a href="https://discord.com/torneo19Ago" target="_blank" rel="noopener noreferrer">¡Inscríbete!</a>
-      </div>
+      
     </div>
   );
 };

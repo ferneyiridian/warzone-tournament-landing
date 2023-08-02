@@ -11,7 +11,7 @@ const TournamentRules = () => {
     <section id="tournament-rules" className='opacity30'>
         <Container className='contenedor-imagenes'>
         <div className=" ">
-            <h2>Reglas del torneo</h2>
+            
             
             <picture >
                 {/* Definir la fuente de la imagen para pantallas de escritorio */}
