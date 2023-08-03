@@ -9,7 +9,7 @@ const AboutUs = () => {
       <div className=" ">
         <h2>¡Bienvenidos a hidden user!</h2> {/* Agrega el h2 para el título de esta sección */}
         <p>
-        ¡Hola a todos! Somos chelops60 y fvelasg, dos apasionados del gaming que no podemos resistirnos al potencial que Warzone nos ofrece.
+        ¡Hola a todos! Somos chelops60, fvelasg y turko_samur, tres apasionados del gaming que no podemos resistirnos al potencial que Warzone nos ofrece.
          Hemos decidido tomar las riendas y darle sentido y emoción a cada partida organizando increíbles torneos.
         </p>
         <p>
