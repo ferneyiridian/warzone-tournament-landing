@@ -10,24 +10,29 @@ const Footer = () => {
           </div>
           <div className="col-md-8 row">
             <div className="col-2 redes">
-              <img src="/images/twitch-logo.png" alt="Twitch"  />
-              <a href="https://twitch.com/torneoschimbitas" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://twitch.com/torneoschimbitas" target="_blank" rel="noopener noreferrer">
+                <img src="/images/twitch-logo.png" alt="Twitch"  />
+              </a>
             </div>
             <div className="col-2 redes">
-              <img src="/images/discord-logo.png" alt="Discord" />
-              <a href="https://discord.com/torneoschimbitas" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://discord.com/torneoschimbitas" target="_blank" rel="noopener noreferrer">
+                <img src="/images/discord-logo.png" alt="Discord" />
+              </a>
             </div>
             <div className="col-2 redes">
-              <img src="/images/kick-logo.png" alt="YouTube" />
-              <a href="https://kick.com/hidden-user" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://kick.com/hidden-user" target="_blank" rel="noopener noreferrer">
+                <img src="/images/kick-logo.png" alt="YouTube" />
+              </a>
             </div>
             <div className="col-2 redes">
-              <img src="/images/youtube-logo.png" alt="YouTube" />
-              <a href="https://youtube.com/torneoschimbitas" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://youtube.com/@HiddenUser60" target="_blank" rel="noopener noreferrer">
+                <img src="/images/youtube-logo.png" alt="YouTube" />
+              </a>
             </div>
             <div className="col-2 redes">
-              <img src="/images/instagram_logo.png" alt="YouTube" />
-              <a href="https://www.instagram.com/hiddenuser_col/" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://www.instagram.com/hiddenuser_col/" target="_blank" rel="noopener noreferrer">
+                <img src="/images/instagram_logo.png" alt="YouTube" />
+              </a>
             </div>
           </div>
         </div>
