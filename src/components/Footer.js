@@ -10,12 +10,12 @@ const Footer = () => {
           </div>
           <div className="col-md-8 row">
             <div className="col-2 redes">
-              <a href="https://twitch.com/torneoschimbitas" target="_blank" rel="noopener noreferrer">
+              <a href="https://twitch.com/hiddenuser60" target="_blank" rel="noopener noreferrer">
                 <img src="/images/twitch-logo.png" alt="Twitch"  />
               </a>
             </div>
             <div className="col-2 redes">
-              <a href="https://discord.com/torneoschimbitas" target="_blank" rel="noopener noreferrer">
+              <a href="https://discord.gg/5VgMPKPJ" target="_blank" rel="noopener noreferrer">
                 <img src="/images/discord-logo.png" alt="Discord" />
               </a>
             </div>
