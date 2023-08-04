@@ -1,6 +1,7 @@
 import React,{ useState,useEffect }  from 'react';
 import './css/Banner.css';
 import { Container } from 'react-bootstrap';
+import ReactGA from 'react-ga4';
 
 const Banner = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -20,7 +21,16 @@ const Banner = () => {
         return () => {
           window.removeEventListener('resize', handleResize);
         };
-      }, []);
+    }, []);
+
+    const handleButtonClick = () => {
+      console.log("suscribete")
+      ReactGA.event({
+        category: 'click',
+        action: 'inscribete',
+      });
+    };
+
     return (
         <section id="home" className='opacity30'>
             <Container className='contenedor-imagenes'>
@@ -33,7 +43,7 @@ const Banner = () => {
                     {/* Fallback para navegadores que no soporten la etiqueta 'picture' */}
                     <img src="/images/banner-image.png" alt="Torneo warzone" className="logo-image" />
                 </picture>
-                <a href="https://api.whatsapp.com/send/?phone=%2B573168214307&text=Hola, Me gustaria inscribirme en el torneo&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className={` ${isMobile ? 'inscribete-image-mobile' : 'inscribete-image-desktop'}`}>
+                <a onClick={() => handleButtonClick()} href="https://api.whatsapp.com/send/?phone=%2B573168214307&text=Hola, Me gustaria inscribirme en el torneo&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className={` ${isMobile ? 'inscribete-image-mobile' : 'inscribete-image-desktop'}`}>
                     <img  src="/images/boton-inscribete.png" alt="Inscribete"  />
                 </a>
                      
